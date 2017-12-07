@@ -28,5 +28,7 @@ endif
 filetype plugin indent on
 syntax enable
 
-let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-3.8/lib/libclang-3.8.so'
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-4.0/lib/libclang-4.0.so.1'
 let g:deoplete#sources#clang#clang_header = '/usr/include/clang'
+
+let g:deoplete#enable_at_startup = 1
